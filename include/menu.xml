@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+	<group id="favorite" text="lan.qiucklinks">
+		<menu url="index.php?file=admincp&action=specialpages"> lan.page</menu>
+		<menu url="[homepage]*">lan.returntodefault</menu>
+		<menu url="index.php?file=welcome">lan.returntosystemdefault</menu>
+	</group>
+	<group id="content" text="lan.content">
+		<menu url="index.php?file=admincp&action=specialpages">lan.page</menu>
+		<module>all</module>
+		<menu url="index.php?file=spider&action=spiderpage">lan.spiderpage</menu>
+		<menu url="index.php?file=admincp&action=users">lan.user</menu>
+		<menu url="index.php?file=admincp&action=allcomments">lan.comment</menu>
+	</group>
+	<group id="system" text="lan.system">
+		<menu url="index.php?file=admincp&action=categories">lan.category</menu>
+		<menu url="index.php?file=admincp&action=sections">lan.section</menu>
+		<menu url="index.php?file=admincp&action=templates">lan.template</menu>
+		<menu url="index.php?file=admincp&action=variables">lan.variable</menu>
+		<menu url="index.php?file=admincp&action=modules">lan.module</menu>
+		<menu url="index.php?file=se">lan.searchengine</menu>
+		<menu url="index.php?file=spider">lan.spider</menu>
+		<menu url="index.php?file=admincp&action=filters">lan.filter</menu>
+	</group>
+</menus>

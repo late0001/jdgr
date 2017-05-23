@@ -1,0 +1,15 @@
+<?php 
+if( !defined('JD_ROOT')) {
+	if(file_exists('configs/config.inc.php')) require_once 'configs/config.inc.php';
+	if(!isset($core_root)) $core_root='./';
+	define('CORE_ROOT', $core_root);
+	define('JD_ROOT', substr(__FILE__, 0, -9));
+}
+require CORE_ROOT.'include/common.inc.php';
+$file = 'install';
+if(ifinstalled()) $file = 'admincp';
+if(!empty($_GET['file'])) $file = $_GET['file'];
+if(!in_array($file, array('account', 'admincp', 'db', 'customer', 'install', 'login', 'se', 'spider', 'setting', 'upload', 'welcome', 'upgrade', 'repair', 'theme'))) exit;
+//安装好了则进入 admincp.php
+require CORE_ROOT.$file.'.php';
+?>

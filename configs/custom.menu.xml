@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="gbk" ?>
+<menus>
+	<group id="favorite" text="lan.kuaijielianjie">
+		<menu url="[homepage]*">lan.wangzhanshouye</menu>
+	</group>
+	<group id="category" text="lan.lanmuguanli">
+		<menu url="index.php?file=admincp&action=categories">lan.lanmuliebiao</menu>
+		<menu url="index.php?file=admincp&action=newcategory&parent=0">lan.tianjialanmu</menu>
+	</group>
+	<group id="content" text="lan.neirongguanli">
+		<menu url="index.php?file=admincp&action=newitem&module=1">lan.tianjiawenzhang</menu>
+		<menu url="index.php?file=admincp&action=items&module=1">lan.wenzhangliebiao</menu>
+	</group>
+	<group id="recommend" text="lan.youlianguanli">
+		<menu url="index.php?action=newitem&category=40">lan.tianjiayoulian</menu>
+		<menu url="index.php?action=items&category=40">lan.youlianliebiao</menu>
+		<menu url="index.php?action=items&category=41">lan.toubudaohang</menu>
+	</group>
+	<group id="customer" text="lan.wangzhanshezhi">
+		<menu url="index.php?file=customer&action=variable&variable=sitename">lan.zhandianming</menu>
+		<menu url="index.php?file=customer&action=variable&variable=marquee">lan.gundong</menu>
+		<menu url="index.php?file=customer&action=variable&variable=pictureone,picturetwo">lan.gonggaotu</menu>
+		<menu url="index.php?file=customer&action=variable&variable=main,manager">lan.danwei</menu>
+		<menu url="index.php?file=customer&action=variable&variable=categoryone,categoryseven,categorythree,categoryfor,categoryfive,categorysix">lan.qukuai</menu>
+		<menu url="index.php?file=customer&action=variable&variable=beian">lan.beianhao</menu>
+		<menu url="index.php?file=account&action=changepassword">lan.xiugaimima</menu>
+	</group>
+</menus>
